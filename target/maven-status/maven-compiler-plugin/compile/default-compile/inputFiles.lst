@@ -1,2 +1,7 @@
-D:\eclipse-workspace\AssignmentSOF305_Struts\src\main\java\action\AuthenticationAction.java
-D:\eclipse-workspace\AssignmentSOF305_Struts\src\main\java\entity\Users.java
+D:\eclipse-workspace\AssignmentSOF305-Struts\src\main\java\entities\Category.java
+D:\eclipse-workspace\AssignmentSOF305-Struts\src\main\java\categories\CategoryAction.java
+D:\eclipse-workspace\AssignmentSOF305-Struts\src\main\java\categories\repositories\CategoryDao.java
+D:\eclipse-workspace\AssignmentSOF305-Struts\src\main\java\categories\services\impl\CategoryServiceImpl.java
+D:\eclipse-workspace\AssignmentSOF305-Struts\src\main\java\categories\repositories\impl\CategoryDaoImpl.java
+D:\eclipse-workspace\AssignmentSOF305-Struts\src\main\java\entities\Status.java
+D:\eclipse-workspace\AssignmentSOF305-Struts\src\main\java\categories\services\CategoryServices.java

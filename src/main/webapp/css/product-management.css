@@ -1,12 +1,17 @@
-body{background: #f5f5f5}
+body {
+	background: #f5f5f5
+}
+
 .wrapper {
 	padding: 0;
 }
+
 .wrap-header {
 	margin: 0;
 	height: 110px;
-	box-shadow: 0px 0px 2px 0px rgba(0,0,0,.15);
+	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, .15);
 }
+
 .header-top {
 	background: #008fe5;
 	margin: 0;
@@ -14,36 +19,43 @@ body{background: #f5f5f5}
 	width: 100%;
 	color: #fff;
 }
+
 .header-bottom {
 	background: #fff;
 	height: 40%;
 	width: 100%;
 	margin: 0;
 	padding: 0 45px;
-	box-shadow: 0px 0px 4px 0px rgba(0,0,0,.25);
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, .25);
 }
+
 .home {
 	padding-left: 40px;
 }
+
 #user-avatar {
 	height: 40px;
 	width: 40px;
 	border-radius: 100%;
 }
+
 .dropdown {
 	padding-right: 10px;
 	border-right: 1px solid #fff;
 }
+
 .home-link {
 	font-size: 1.5em;
 }
+
 .menu-item {
 	padding: 0 10px;
 }
+
 .menu-link {
 	color: #000;
-	
 }
+
 .menu-link:hover {
 	cursor: pointer;
 	color: #008fe5;
@@ -51,8 +63,8 @@ body{background: #f5f5f5}
 }
 
 .content {
-margin: 0;
-background: #f5f5f5;	
+	margin: 0;
+	background: #f5f5f5;
 }
 
 .overview-items {
@@ -63,10 +75,13 @@ background: #f5f5f5;
 	margin-top: 30px;
 	border-radius: 10px;
 }
-.overview-items div{height: 100%}
+
+.overview-items div {
+	height: 100%
+}
 
 .manager-title {
-	padding: 10px 50px 0px; 
+	padding: 10px 50px 0px;
 }
 
 .content-top {
@@ -78,7 +93,7 @@ background: #f5f5f5;
 .content-top-item {
 	width: 100%;
 	background: #fff;
-	box-shadow: 0px 0px 4px 0px rgba(0,0,0,.25);
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, .25);
 }
 
 .row {
@@ -96,23 +111,62 @@ background: #f5f5f5;
 }
 
 .top10-label {
-	padding: 30px 15px;
+	padding: 30px 15px 10px;
 }
 
-.small-td {
-	width: 10%;
-}
-.fa-2x{
+.fa-2x {
 	font-size: 1.5em !important;
 	color: #008fe5;
 }
-#productTable tr td{
+
+#productTable tr td {
 	vertical-align: middle !important;
 }
-#productTable tr th{
+
+#productTable tr th {
 	vertical-align: middle !important;
 }
-.btn-default{
+
+.btn-default {
 	border-color: #008fe5;
+	color: #008fe5 !important;
+}
+
+.icon-action {
 	color: #008fe5;
+	font-size: 1.2em;
+}
+
+.icon-action:hover {
+	cursor: pointer;
+}
+
+.btn-w {
+	border: 1px solid #ddd;
+}
+
+.a-black {
+	color: #000;
+}
+
+.center {
+	text-align: center;
+}
+
+.error {
+	color: red !important;
+	font-weight: bold;
+}
+
+.errorMessage {
+	list-style: none;
+	font-weight: bold;
+	color: red !important;
+}
+#productTable_paginate{
+	margin-bottom: 5px;
+}
+
+#Status-select{
+	visibility: hidden;s
 }

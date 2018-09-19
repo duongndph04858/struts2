@@ -7,27 +7,19 @@
 
 	<constant name="struts.devMode" value="true" />
 	<constant name="struts.custom.i18n.resources"
-		value="register.RegisterAction" />
-	<package name="basicstruts2" extends="struts-default">
-		<!-- login -->
-		<action name="loginInput">
-			<result>/admin/login.jsp</result>
-		</action>
+		value="properties.global" />
+	<!-- <constant name="struts.objectFactory" value="spring"></constant> -->
+	<package name="default" extends="struts-default">
+		<interceptors>
+			<interceptor name="isLogin"
+				class="interceptor.AuthenticationInterceptor"></interceptor>
+		</interceptors>
+		<global-results>
+			<result name="login">/WEB-INF/views/admin/login.jsp</result>
+		</global-results>
 		<action name="">
-			<result>/admin/login.jsp</result>
-		</action>
-		<action name="login" class="action.AuthenticationAction"
-			method="execute">
-			<result name="success">/admin/shop.jsp</result>
-			<result name="input">/admin/login.jsp</result>
-		</action>
-		<!-- index -->
-		<action name="index">
-			<result>/admin/shop.jsp</result>
-		</action>
-		<!-- product -->
-		<action name="productInput">
-			<result>/admin/product.jsp</result>
+			<result type="redirect">login</result>
 		</action>
 	</package>
+
 </struts>

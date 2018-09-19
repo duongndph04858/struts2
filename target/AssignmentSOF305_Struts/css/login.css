@@ -1,56 +1,45 @@
-@charset "UTF-8";
-#login-form {
-	position: absolute;
-	top: 30px;
-	right: 50px;
-	font-size: 18px;
+/* CSS Document */
+.bg {
+	height: 600px;
+	background: #f5f5f5;
+}
+
+.col-4 {
+	background: #008fe5;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, .25);
+	height: 420px;
+}
+
+.logo {
+	margin: 0;
+	height: 15%;
+}
+
+.login {
+	background: #fff;
+	height: 85%
+}
+
+.content {
+	padding: 30px !important;
+	width: 100%;
+}
+.w-90{
+	width: 90%;
+	margin: auto;
+}
+.bd-bt{
+	border-bottom: 2px solid #ddd;
+}
+.bd-none{
+	border: none;
+}
+.center{
 	text-align: center;
 }
 
-#login-form input {
-	height: 25px;
-	border-radius: 15px;
-	border: 1px solid #000;
-	padding-left: 10px;
+input:focus {
+	outline: none;
 }
-
-#login-form a {
-	color: #000;
-	margin-top: 0px;
-	line-height: 30px;
-}
-
-#login-form button {
-	line-height: 20px;
-	border-radius: 5px;
-	font-weight: bold;
-	border: 1px solid #000;
-	vertical-align: middle;
-}
-
-#login-form button:hover {
-	cursor: pointer;
-	background: #fff;
-}
-
-#language select {
-	width: 75px;
-	padding-left: 20px;
-}
-
-#language select:hover {
-	cursor: pointer;
-}
-
-#language option:hover {
-	cursor: pointer;
-}
-.fogot-col{
-	text-align: right;
-}
-.formButton{
-	text-align: center !important;
-}
-.formButton input:hover{
-	cursor: pointer;
-}
+li{list-style: none;}

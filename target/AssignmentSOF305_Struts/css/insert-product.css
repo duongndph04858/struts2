@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.bd-right {
+	padding-left: 30px;
+}
+
+.table-insert {
+	width: 80%;
+	margin: auto;
+}
+
+.content-top-item {
+	padding: 30px 15px;
+}
+
+.tdLabel {
+	width: 22%;
+}
+
+input {
+	border: 1px solid #ccc;
+	border-radius: 7px;
+}
+
+.select-category {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	line-height: 30px;
+	height: 30px;
+}
+
+tr {
+	height: 40px !important;
+	vertical-align: top !important;
+}
+
+.error-field {
+	height: 25px !important;
+	vertical-align: bottom !important;
+}
+
+.errorMessage {
+	margin: 0 !important;
+}
+ul{
+	padding: 0 !important;
+}
+
+li {
+	list-style: none !important;
+}

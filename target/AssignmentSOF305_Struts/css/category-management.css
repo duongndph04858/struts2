@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.insert-category {
+	margin-top: 30px;
+	margin-bottom: -20px;
+	padding-left: 20px;
+}
+
+input {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+.btn-primary {
+	height: 28px;
+	line-height: 10px;
+}
+
+.error-field {
+	height: 25px !important;
+	vertical-align: bottom !important;
+}
+
+.errorMessage {
+	margin: 0 !important;
+}
+
+ul {
+	padding: 0 !important;
+}
+
+li {
+	list-style: none !important;
+}
